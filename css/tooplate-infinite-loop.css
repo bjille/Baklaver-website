@@ -252,6 +252,7 @@ r,
 }
 
 .tm-down-arrow {
+  box-sizing: content-box;
   color: #FFF;
   cursor: pointer;
   background: rgb(50 133 103);
@@ -262,7 +263,8 @@ r,
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: #FFF;
-  background: #37A;
+  background: rgb(43, 118, 91);
+  ;
   padding: 20px 50px;
 }
 
